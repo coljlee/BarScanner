@@ -2,13 +2,7 @@
 New repository to get Android Studio to cooperate.
 
 #####INSTRUCTIONS FOR CLONING FROM GITHUB TO ANDROID STUDIO:
-1. Make my changes
-  1. Fix bug
-  2. Improve formatting
-    * Make the headings bigger
-2. Push my commits to GitHub
-3. Open a pull request
-  * Describe my changes
-  * Mention all the members of my team
-    * Ask for feedback
-
+1. File->New->Project from Version Control->Github
+    * NOTE: When the project is first cloned, it WILL fail! The volley submodule will not be loaded.
+2. View files using Project view (top left dropdown menu, make sure Project tab is open)
+3. Make sure that the volley directory is empty (delete all files inside if not)
