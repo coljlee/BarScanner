@@ -85,7 +85,7 @@ public class BarMain extends AppCompatActivity implements View.OnClickListener {
         IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
 
         //If there is a result, get the values and display them
-        //Else, display warning Toast
+        //Else, display the warning Toast
         if (scanningResult != null) {
             //Get values
             String scanFormat = scanningResult.getFormatName();
